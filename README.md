@@ -9,7 +9,7 @@ In addition to language changes, much more dramatic changes have been made to th
 
 #### J2SE 1.4
 Released on February 6th, 2002 was the first release of the Java platform developed under the Java Community Process as JSR 59. Major changes included:
-  
+
 <ul>
   Language changes
   <li>assert keyword (specified in JSR 41)</li>
@@ -125,7 +125,7 @@ Java 9 was released on September 21, 2017 after several times got postponed. Jav
   <li>JavaDB was removed drom JDK</li>
   <li>HiDPI graphics: automatic scalling and sizing</li>
 </ul>
-   
+
 #### Java SE 10
 OpenJDK 10 was released on March 20, 2018, with twelve new features confirmed. Among these features were:
 <ul>
