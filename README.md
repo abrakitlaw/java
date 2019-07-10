@@ -37,7 +37,7 @@ Released on September 30, 2004 was originally numbered 1.5, which is still used 
   <li>Generics: provides complile time (static) type safety for collections and eliminates the need for most typecasts (type conversion)</li>
   <li>Metadata: also called annotations; allow language constructs such as classes and methods to be tagged with additional data, which can then processed by metadata-aware utilities</li>
   <li>Autoboxing/unboxing: automatic conversions between primitive types (such as int) and primitive wrapper classed (such as Integer)</li>
-  <li>Enumerations: the enum keyword creates a typesafe, ordered list of values (such as Day.MONDAY, Day,TUESDAY, etc.); previously this could only be achieved by non-typesafe constant integers or manually constructed classes</li>
+  <li>Enumerations: the enumeration keyword creates a typesafe, ordered list of values (such as Day.MONDAY, Day,TUESDAY, etc.); previously this could only be achieved by non-typesafe constant integers or manually constructed classes</li>
   <li>Varags: the last parameter of a method can now be declared using a type name followed by three dots</li>
   <li>Enhanced for each loop: the for loop syntax is extended with special syntax for iterating over each member of either an array or any Iterable, such as the standard collection classes</li>
   <li>Improved semantics of execution for multi-threaded Java programs; the new Java memory model addresses issues of complexity, effectiveness, and performance of previous specifications</li>
