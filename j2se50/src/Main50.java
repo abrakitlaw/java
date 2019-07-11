@@ -16,6 +16,17 @@ public class Main50 {
         dog.speak();
         out.println("Type: " + dog.getType());
 
+        // creating an Integer Object
+        // with value 10.
+        int a=10;
+        Integer i = new Integer(10);
+
+        // unboxing the Object
+        int newInt = i;
+
+        System.out.println("Value of i: " + i);
+        System.out.println("Value of i1: " + newInt);
+
 
         //Generic Type example
         List<Cat> cats = new ArrayList<Cat>();

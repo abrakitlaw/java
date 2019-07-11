@@ -6,11 +6,6 @@ public class LambdaExample {
 
         StateOwner stateOwner = new StateOwner();
 
-        stateOwner.addStateListener(new StateChangeListener() {
-            @Override
-            public void onStateChange() {
-                System.out.println("State changed");
-            }
-        });
+        stateOwner.addStateListener(() -> System.out.println("State changed"));
     }
 }
